@@ -68,7 +68,13 @@ const Card = (props) => {
           </div>
         </div>
         <div className="under">
-          {data.on ? underText : "Печалька, с рыбой закончился."}
+          {data.on ? (
+            underText
+          ) : (
+            <span style={{ color: "#FFFF66" }}>
+              Печалька, с рыбой закончился.
+            </span>
+          )}
           <span style={bye} onClick={select}>
             {data.on ? byeText : ""}
           </span>
