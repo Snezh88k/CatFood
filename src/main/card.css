@@ -1,0 +1,140 @@
+.cardBox {
+  position: relative;
+  width: 320px;
+  height: 509px;
+}
+.card {
+  height: 480px;
+  width: 320px;
+  cursor: pointer;
+  background-image: url("../img/CardDefault.png");
+}
+.card:hover {
+  background-image: url("../img/DefaultHover.png");
+}
+
+.card_selected {
+  height: 480px;
+  width: 320px;
+  background-image: url("../img/Selected.png");
+  cursor: pointer;
+}
+
+.card_selected:hover {
+  background-image: url("../img/SelectedHover.png");
+}
+
+.under {
+  font-family: Trebuchet MS;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 14px;
+}
+.yastvo {
+  position: absolute;
+  height: 19px;
+  left: 15.94%;
+  right: 20%;
+  top: calc(50% - 19px / 2 - 224px);
+
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #666666;
+}
+
+.nyamyshka {
+  position: absolute;
+  height: 56px;
+  left: 15%;
+  right: 19.06%;
+  top: calc(50% - 56px / 2 - 181.5px);
+
+  /* Title / Default */
+
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.portions {
+  position: absolute;
+  height: 32px;
+  left: 15.94%;
+  right: 50.94%;
+  top: calc(50% - 32px / 2 - 95.5px);
+  width: 250px;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
+}
+
+.nachinka {
+  position: absolute;
+  height: 28px;
+  left: 15.94%;
+  right: 49.06%;
+  top: calc(50% - 28px / 2 - 140.5px);
+
+  /* Subtitle / Default */
+
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.oval {
+  position: absolute;
+  left: 70%;
+  right: 5%;
+  top: 75.44%;
+  bottom: 8.84%;
+  text-align: center;
+}
+.weight {
+  margin-top: 20px;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.kg {
+  position: absolute;
+  height: 52px;
+  left: 79.53%;
+  right: 14.22%;
+  top: calc(50% - 52px / 2 + 175.5px);
+  top: 433px;
+
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 22px;
+  /* or 52% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
