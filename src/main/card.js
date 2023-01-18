@@ -4,12 +4,14 @@ import React, { useState } from "react";
 const Card = (props) => {
   const { data } = props;
 
-  const [selected, setSelected] = useState("card");
+  const [selected, setSelected] = useState(data.className);
   const [underText, setUnderText] = useState("Чего сидишь? Порадуй котэ, ");
   const [byeText, setByeText] = useState("купи.");
 
   const select = () => {
-    console.log("click");
+    if (data.on !== 1) {
+      return;
+    }
     if (selected === "card") {
       setSelected("card_selected");
       setUnderText(data.underText);
@@ -66,9 +68,9 @@ const Card = (props) => {
           </div>
         </div>
         <div className="under">
-          {underText}
+          {data.on ? underText : "Печалька, с рыбой закончился."}
           <span style={bye} onClick={select}>
-            {byeText}
+            {data.on ? byeText : ""}
           </span>
         </div>
       </div>

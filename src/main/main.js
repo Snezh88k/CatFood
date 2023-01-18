@@ -16,7 +16,11 @@ const Main = () => {
       quantity: "",
       text: "мышь в подарок",
     },
+
     underText: "Печень утки разварная с артишоками.",
+
+    on: 1,
+    className: "card",
   };
 
   const packetWithFish = {
@@ -33,6 +37,8 @@ const Main = () => {
       text: "мыши в подарок",
     },
     underText: "Головы щучьи с чесноком да свежайшая сёмгушка.",
+    on: 0,
+    className: "cardOff",
   };
 
   const packetWithChicken = {
@@ -50,6 +56,8 @@ const Main = () => {
       addText: "заказчик доволен",
     },
     underText: "Филе из цыплят с трюфелями в бульоне.",
+    on: 1,
+    className: "card",
   };
   return (
     <div className="mainDiv">
