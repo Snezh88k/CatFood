@@ -2,15 +2,17 @@
   position: relative;
   width: 320px;
   height: 509px;
+  margin-bottom: 15px;
+  background-image: url("../img/CardDefault.png");
 }
+
 .card {
   height: 480px;
   width: 320px;
   cursor: pointer;
-  background-image: url("../img/CardDefault.png");
 }
 .card:hover {
-  background-image: url("../img/DefaultHover.png");
+  background-image: url("../img/DefaultHoverZ.png");
 }
 
 .cardOff {
@@ -79,16 +81,11 @@
   left: 15%;
   right: 19.06%;
   top: calc(50% - 56px / 2 - 181.5px);
-
-  /* Title / Default */
-
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  /* identical to box height */
-
   color: #000000;
 }
 .portions {
@@ -112,18 +109,14 @@
   left: 15.94%;
   right: 49.06%;
   top: calc(50% - 28px / 2 - 140.5px);
-
-  /* Subtitle / Default */
-
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  /* identical to box height */
-
   color: #000000;
 }
+
 .oval {
   position: absolute;
   left: 70%;
@@ -132,6 +125,7 @@
   bottom: 8.84%;
   text-align: center;
 }
+
 .weight {
   margin-top: 20px;
   font-family: "Trebuchet MS";
@@ -149,15 +143,11 @@
   right: 14.22%;
   top: calc(50% - 52px / 2 + 175.5px);
   top: 433px;
-
   font-family: "Trebuchet MS";
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
   line-height: 22px;
-  /* or 52% */
-
   text-align: center;
-
   color: #ffffff;
 }
